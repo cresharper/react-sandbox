@@ -16,6 +16,9 @@ ReactDOM.render(
         <Route path="/color-picker" component={ColorPicker} />
         <ul>
           <li>
+            <Link to="/">Main Page</Link>
+          </li>
+          <li>
             <Link to="/counter">Counter</Link>
           </li>
           <li>
