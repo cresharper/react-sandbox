@@ -25,12 +25,12 @@ class ColorPick extends React.Component {
     }
    }
     
-//    saveColor() {
-//     var copyText = document.getElementById("myInput");
-//     copyText.select();
-//     document.execCommand("copy");
-//     alert("Copied the text: " + copyText.value);
-//    }
+   saveColor() {
+    var copyText = document.getElementById("myInput");
+    copyText.select();
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+   }
 
    componentDidMount() {
         console.log(this.state.backgroundColor);
