@@ -23,8 +23,6 @@ ReactDOM.render(
           </li>
         </ul>
     </Router>
-    <Counter />
-    <ColorPicker />
   </main>,
   document.getElementById('root')
 );
