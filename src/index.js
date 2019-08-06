@@ -12,8 +12,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 ReactDOM.render(
   <main className="content-area">
     <Router>
-        <Route path="/counter" component={Counter} />
-        <Route path="/color-picker" component={ColorPicker} />
         <ul>
           <li>
             <Link to="/">Main Page</Link>
@@ -25,6 +23,8 @@ ReactDOM.render(
             <Link to="/color-picker">Color Picker</Link>
           </li>
         </ul>
+        <Route path="/counter" component={Counter} />
+        <Route path="/color-picker" component={ColorPicker} />
     </Router>
   </main>,
   document.getElementById('root')
