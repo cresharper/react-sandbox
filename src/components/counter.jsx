@@ -7,13 +7,11 @@ class Counter extends Component {
         count: 0
     };
 
-    handleIncrease = (product) => {
-        console.log(product);
+    handleIncrease = () => {
         this.setState({ count: this.state.count + 1 });
     }
 
-    handleDecrease = (product) => {
-        console.log(product);
+    handleDecrease = () => {
         this.setState({ count: this.state.count - 1 });
     }
 
